@@ -1,0 +1,50 @@
+.button {
+    display: inline-block;
+    padding: 12px 30px;
+    justify-content: center;
+    align-items: cneter;
+    margin: 8px 4px;
+    border-radius: 10px;
+
+    text-align: center;
+    text-decoration: none;
+
+    font-family: "Syne";
+    font-style: normal;
+    line-height: normal;
+
+    font-size: 16px;
+    cursor: pointer;
+
+    transition: 0.2s;
+
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button.special {
+    background: var(--special-fill);
+    
+    color: var(--normal-text-inv);
+    border: 2px solid var(--special-outline);
+}
+
+
+.button.special:hover {
+    background: var(--special-fill-hover);
+    opacity: 0.65;
+
+    border: 2px solid var(--special-outline-hover);
+
+    transform: scale(1.05);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button.special:active {
+    background: var(--special-fill-pressed);
+    opacity: 1;
+
+    border: 2px solid var(--special-outline-pressed);
+
+    transform: scale(0.95);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+}

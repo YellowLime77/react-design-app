@@ -1,3 +1,15 @@
+:root {
+  --special-fill: linear-gradient(45deg, #00ECA5, #2395FF);
+  --special-fill-hover: linear-gradient(45deg, #06FFA5, #0085FF);
+  --special-fill-pressed: linear-gradient(45deg, #3DC89E, #007CEF);
+
+  --special-outline: rgba(0, 80, 75, 0.50);
+  --special-outline-hover: rgba(0, 195, 185, 0.5);
+  --special-outline-pressed: rgba(0, 23, 22, 0.50);
+
+  --normal-text-inv: #FFFFFF;
+}
+
 .App {
   text-align: center;
 }
