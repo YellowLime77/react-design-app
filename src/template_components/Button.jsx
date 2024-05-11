@@ -12,7 +12,7 @@ class Button extends React.Component {
 
     render() {
         return (
-            <button id="mainButton" className={"button " + this.state.type}>
+            <button id={this.props.id} className={this.props.className + " button " + this.state.type}>
                 {this.props.text}
             </button>
         );
