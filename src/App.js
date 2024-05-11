@@ -4,7 +4,9 @@ import Button from './components/Button';
 function App() {
   return (
     <div className="App">
-      <Button text="what"/>
+      <Button text="Experience" type="special"/>
+      <Button text="Submit" type="primary"/>
+      <Button text="More" type="secondary"/>
     </div>
   );
 }

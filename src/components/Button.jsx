@@ -6,7 +6,7 @@ class Button extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            type: "special"
+            type: this.props.type
         }
     }
 
